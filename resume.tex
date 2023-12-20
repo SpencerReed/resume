@@ -86,7 +86,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Spencer Gass}{ %\urlstyle{same}\href{http://example.com}{example.com}| \href{http://example2.co}{example2.co}\\
-\href{mailto:spencer.gass@gmail.com}{spencer.gass@gmail.com} | \href{tel:12565413116}{256.541.3116} | \href{https://www.linkedin.com/in/spencer-gass/}{LinkedIn} | \href{https://github.com/spencer-gass}{GitHub}
+\href{mailto:spencer.gass@gmail.com}{spencer.gass@gmail.com} | \href{tel:12565413116}{256.541.3116} | \href{https://www.linkedin.com/in/spencer-gass/}{LinkedIn: spencer-gass} | \href{https://github.com/spencer-gass}{GitHub: spencer-gass}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -103,26 +103,31 @@
 
 \section{Experience}
 \runsubsection{Senior FPGA Engineer}
-\descript{| Adtran | June 2016 – Present | Huntsville, AL}
+\descript{| Adtran | June 2016 – Present | Huntsville, AL (Remote since 2020)}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Advanced a 100 Gbps Ethernet traffic generator/analyzer from minimum viable product to full function by refactoring RTL to close timing, implementing technically difficult features like 100 Gbps packet capture, and deficit waited round robbing scheduling, and implementing UI, application, and driver features in Javascript, Python, and C. This is a ubiquitous internal product with over 250 units manufactured, saving the company approximately 100 million dollars.
-\item Contributed to the development of the 518F1 Adtran’s best selling line card. Approximately  36,000 units sold, generating 250 million dollars in revenue as of Q4 2023. 
+\item Advanced a 100 Gbps Ethernet traffic generator/analyzer from minimum viable product to full function by refactoring RTL to close timing, 
+implementing technically difficult features like 100 Gbps packet capture, and deficit waited round robbing scheduling, and implementing UI, application, 
+and driver features in Javascript, Python, and C. This is a ubiquitous internal product with over 250 units manufactured, saving the company approximately \$100M .
+\item Contributed to the development of the 518F1 Adtran’s best selling line card. Approximately  36,000 units sold, generating \$250M in revenue as of Q4 2023. 
 Collaborated with a staff researcher to develop 25G Ethernet MAC and SerDes IP.
 Integrated and verified back plane Ethernet links.
 Supported a principal engineer in the development of a multi-100G Ethernet switch generating two patent applications.
-\item Recognized the limitations of the PCIe DMA engine used for FPGA register access and exception traffic, and proactively created a higher performance, lower resource utilizing replacement. The new design is used in 14 FPGA designs on 8 product lines.
+\item Recognized the limitations of the PCIe DMA engine used for FPGA register access and exception traffic, 
+and proactively created a higher performance, lower resource utilizing replacement. The new design is used in 14 FPGA designs on 8 product lines.
 \item Independently created and maintained three FPGA designs which perform SyncE, and board management functions on Adtrans SDX OLTs and aggregation switches. 
-\item Resolved a critical customer issue shortly after the relevant subject matter expert left the company. Communicated progress to my VP and resolved the issue in time to salvage the relationship with the customer.
+\item Resolved a critical customer issue shortly after the relevant subject matter expert left the company. 
+Communicated progress to my VP and resolved the issue in time to salvage the relationship with the customer.
 \item Created an FPGA based workaround for a rev A clock generator silicon bug which allowed us to ship hardware while waiting for rev B silicon.
 \item Collaborated with a cross functional team to develop a method for configuring large FPGAs to allow for faster boot times and more reliable FPGA initialization.
 \item Maintained and extended Adtran’s Ethernet MAC and SerDes IP. Used by nearly all FPGAs in Adtran’s product portfolio.
-\item Implemented a dynamic queue memory allocation system for Adtran’s Ethernet switch IP so that, rather than assigning fixed memory sizes to queues, queues could increase in size in proportion to free memory before becoming full and discarding incoming packets. 
-\item Integrated a UART 16550 controller into and FPGA to communicate with an off the shelf Ethernet switch chip on the same board. Wrote a driver to create a command line interface that communicates with the switch chip via the FPGA UART. This allowed for in-field debug of the switch chip. 
-\item Designed a high performance packet FIFO to overcome performance limitations with older
-generations of packet FIFO and developed automated test coverage beyond what was expected.
-\item Implemented receive signal strength indicator (RSSI) on Adtran’s 10G EPON OLT. 
-\item Remote since 2020. Thrives in a remote environment evidenced by outstanding performance reviews prior to and while working remotely. 
+\item Implemented a dynamic queue memory allocation system for Adtran’s Ethernet switch IP so that, rather than assigning fixed memory sizes to queues, 
+queues could increase in size in proportion to free memory before becoming full and discarding incoming packets. 
+%\item Integrated a UART 16550 controller into and FPGA to communicate with an off the shelf Ethernet switch chip on the same board. 
+%Wrote a driver to create a command line interface that communicates with the switch chip via the FPGA UART. This allowed for in-field debug of the switch chip. 
+%\item Designed a high performance packet FIFO to overcome performance limitations with older
+%generations of packet FIFO and developed automated test coverage beyond what was expected.
+%\item Implemented receive signal strength indicator (RSSI) on Adtran’s 10G EPON OLT. 
 \end{tightemize}
 \sectionsep
 
@@ -133,27 +138,17 @@ generations of packet FIFO and developed automated test coverage beyond what was
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Undergraduate Researcher}
-\descript{| CAVS | Aug 2015 – Dec 2015 | Starkville, MS}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN TWO
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.40\textwidth}
+%\runsubsection{Undergraduate Researcher}
+%\descript{| CAVS | Aug 2015 – Dec 2015 | Starkville, MS}
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Education}
-\textbf{Mississippi State University} \\ BS EE | May 2016 | GPA: 3.8 / 4.0 \\
-\textbf{Georgia Institute of Technology} \\ MS ECE | Aug 2019 | GPA: 3.4 / 4.0 
+\textbf{Georgia Institute of Technology} MS ECE | Aug 2019 | GPA: 3.4 / 4.0 \\ 
+\textbf{Mississippi State University} BS EE | May 2016 | GPA: 3.8 / 4.0 \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -161,15 +156,14 @@ generations of packet FIFO and developed automated test coverage beyond what was
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Leadership and Mentorship}
-Interviewed 26 co-ops/interns from 2016 to 2019.\\
-Supervised/Mentored 7 co-ops.
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Lead the FPGA group's co-op program since June 2022. Supervised/mentored 7 co-ops.
+Co-ops start the semester with minimal RTL/FPGA knowlegde and leave with a strong grasp of 
+the fundementals and are often able to contribute to a production FPGA design. 
+\item Interviewed 26 co-ops/interns from 2016 to 2019.
+\end{tightemize}
 \sectionsep
-
-
-
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.55\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -177,17 +171,12 @@ Supervised/Mentored 7 co-ops.
 
 \section{Skills}
 \textbf{RTL Design:} VHDL | Verilog | Modelsim | Questasim | Riviera Pro \\ 
-\textbf{FPGA Design:} Xilinx | Vivado \\
+\textbf{FPGA Design:} AMD | Xilinx | Vivado \\
 \textbf{Programming and Scripting:} Python | C++ | C | Javascript | Bash | CSH \\
 \textbf{Relevant Technologies and Standards:} Ethernet | PCIe | DDR | HBM \\
-\textbf{Remote Collaboration:} Microsoft Teams | Git \\
+%\textbf{Remote Collaboration:} Microsoft Teams | Git \\
 \textbf{Knowledge of:} System Verilog | UVM \\
 \sectionsep
-
-\end{minipage}
-
-\hfill
-\begin{minipage}[t]{1.0\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PATENTS
