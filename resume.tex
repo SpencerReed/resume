@@ -107,7 +107,7 @@
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Advanced a 100 Gbps Ethernet traffic generator/analyzer from minimum viable product to full function by refactoring RTL to close timing, 
-implementing technically difficult features like 100 Gbps packet capture, and deficit waited round robbing scheduling, and implementing UI, application, 
+implementing technically difficult features like 100 Gbps packet capture, and deficit waited round robin scheduling, and implementing UI, application, 
 and driver features in Javascript, Python, and C. This is a ubiquitous internal product with over 250 units manufactured, saving the company approximately \$100M .
 \item Contributed to the development of the 518F1 Adtran’s best selling line card. Approximately  36,000 units sold, generating \$250M in revenue as of Q4 2023. 
 Collaborated with a staff researcher to develop 25G Ethernet MAC and SerDes IP.
@@ -115,14 +115,15 @@ Integrated and verified back plane Ethernet links.
 Supported a principal engineer in the development of a multi-100G Ethernet switch generating two patent applications.
 \item Recognized the limitations of the PCIe DMA engine used for FPGA register access and exception traffic, 
 and proactively created a higher performance, lower resource utilizing replacement. The new design is used in 14 FPGA designs on 8 product lines.
-\item Independently created and maintained three FPGA designs which perform SyncE, and board management functions on Adtrans SDX OLTs and aggregation switches. 
+\item Independently created and maintained 3 FPGA designs which perform SyncE, and board management functions on Adtrans SDX OLTs and aggregation switches. 
 \item Resolved a critical customer issue shortly after the relevant subject matter expert left the company. 
 Communicated progress to my VP and resolved the issue in time to salvage the relationship with the customer.
 \item Created an FPGA based workaround for a rev A clock generator silicon bug which allowed us to ship hardware while waiting for rev B silicon.
 \item Collaborated with a cross functional team to develop a method for configuring large FPGAs to allow for faster boot times and more reliable FPGA initialization.
-\item Maintained and extended Adtran’s Ethernet MAC and SerDes IP. Used by nearly all FPGAs in Adtran’s product portfolio.
-\item Implemented a dynamic queue memory allocation system for Adtran’s Ethernet switch IP so that, rather than assigning fixed memory sizes to queues, 
-queues could increase in size in proportion to free memory before becoming full and discarding incoming packets. 
+\item Maintained and extended Adtran’s Ethernet MAC and SerDes IP, used by nearly all FPGAs in Adtran’s product portfolio.
+\item Implemented a dynamic queue memory allocation system for Adtran’s Ethernet switch IP. 
+This allows queues to increase in size in proportion to free memory before becoming full and discarding incoming packets,
+rather than assigning fixed memory sizes to queues. 
 %\item Integrated a UART 16550 controller into and FPGA to communicate with an off the shelf Ethernet switch chip on the same board. 
 %Wrote a driver to create a command line interface that communicates with the switch chip via the FPGA UART. This allowed for in-field debug of the switch chip. 
 %\item Designed a high performance packet FIFO to overcome performance limitations with older
@@ -158,9 +159,9 @@ queues could increase in size in proportion to free memory before becoming full 
 \section{Leadership and Mentorship}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Lead the FPGA group's co-op program since June 2022. Supervised/mentored 7 co-ops.
-Co-ops start the semester with minimal RTL/FPGA knowlegde and leave with a strong grasp of 
-the fundementals and are often able to contribute to a production FPGA design. 
+\item Led the FPGA group's co-op program since June 2022. Supervised/mentored 7 co-ops.
+Co-ops start the semester with minimal RTL/FPGA knowledge and leave with a strong grasp of 
+the fundementals. By the end of the semester they are often able to contribute to a production FPGA design. 
 \item Interviewed 26 co-ops/interns from 2016 to 2019.
 \end{tightemize}
 \sectionsep
