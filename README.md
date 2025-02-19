@@ -3,7 +3,13 @@ Resume
 
 ## Dependencies
 
-1. Compiles only with **XeLaTeX** 
+1. Compiles only with **XeLaTeX**
+ - Installation instructions:
+```
+sudo apt-get update
+sudo apt-get install texlive
+sudo apt-get install texlive-xetex
+```
 
 ## Availability
 
@@ -12,6 +18,10 @@ Resume
 2. **Overleaf**.com (formerly **WriteLatex**.com) (v1 fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
 3. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://www.sharelatex.com/templates/cv-or-resume/deedy-resume)
 -->
+
+## Compilation
+
+1. There is a make file in the top level directory. simply run `make` to compile.
 
 ## Known Issues:
 1. Overflows onto second page if any column's contents are more than the vertical limit
