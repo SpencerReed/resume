@@ -101,9 +101,11 @@
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \section{Experience}
-\runsubsection{FPGA Digital Design Engineer}
-\descript{| Kepler Communications | May 2024 – Present | Toronto, ON (Remote)}
+\runsubsection{Senior FPGA Digital Design Engineer}
+\newline
+\descript{Kepler Communications | May 2024 – Present | Toronto, ON (Remote)}
 %   IC3 May 2024 - Present
 Current Responsibilities:
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
@@ -116,13 +118,14 @@ an FPGA based MPLS router into Kepler's satellites.
 Past Accomplishments:
 \begin{tightemize}
 \item Lead the development of an IP/MPLS router with 100+Gbps throughput, and a high level of parametrization in SystemVerilog.
-Utilized Xilinx/AMD Vitis Netowrking P4 IP to perform classification and forwarding. Designed custom RTL for the other
+Utilized Xilinx/AMD Vitis Networking P4 IP to perform classification and forwarding. Designed custom RTL for the other
 subsystems. Created a full automated test bench suite for verification.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Senior FPGA Engineer}
-\descript{| Adtran | June 2016 – April 2024 | Huntsville, AL (Remote 2020-2024)}
+\newline
+\descript{Adtran | June 2016 – April 2024 | Huntsville, AL (Remote 2020-2024)}
 %   Untitled June 2016 - Oct 2019
 %   II Oct 2019 - Oct 2020
 %   Senior Oct 2020 - Jan 2024
@@ -130,7 +133,7 @@ subsystems. Created a full automated test bench suite for verification.
 Past Accomplishments:
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-%\item Contributed to the design specification for a telecom ASIC.
+\item Contributed to the requirements definition, design specification and verification specification for a 7nm ASIC.
 \item Created FPGA designs which implement key features for broadband access networking equipment and
 supported those designs through their life cycle (design specification, RTL design, simulation,
 synthesis/implementation, timing closure, on-target testing, and customer support).
@@ -140,15 +143,16 @@ synthesis/implementation, timing closure, on-target testing, and customer suppor
 \item Lead the FPGA team's co-op program. Mentored and supervised 7 co-ops over a 2 year period.
 %Co-ops start the semester with minimal RTL/FPGA knowledge and leave with a strong grasp of
 %the fundamentals. By the end of the semester they are often able to contribute to a production FPGA design.
-\item Inherited ownership of a 100 Gbps Ethernet traffic generator/analyzer and advanced it from minimum viable product to full function by refactoring RTL to close timing,
-implementing technically difficult features like 100 Gbps packet capture, and DWRR scheduling, and implementing UI, application,
-and driver features in Javascript, Python, and C. This is a ubiquitous internal product with over 250 units manufactured, saving the company 10s of millions of dollars.
+\item Inherited ownership of an FPGA based 100 Gbps Ethernet traffic generator/analyzer and advanced it
+from minimum viable product to full function by refactoring RTL to close timing, implementing missing features
+in RTL, and implementing UI, application, and driver layers in Javascript, Python, and C.
+%This is a ubiquitous internal product with over 250 units manufactured, saving the company 10s of millions of dollars.
 %\item Contributed to the development of the 518F1 Adtran’s bestselling line card. Approximately  36,000 units sold, generating \$250M in revenue as of Q4 2023.
 %Collaborated with a staff researcher to develop 25G Ethernet MAC and SerDes IP.
 %Integrated and verified back plane Ethernet links.
 \item Supported a principal engineer in the development of a multi-100G broadband Ethernet switch generating two awarded patents.
-\item Resolved a critical customer issue shortly after inheriting ownership of the relevant IP which I was previously unfamiliar with.
-Communicated progress to my VP and resolved the issue in time to salvage the relationship with the customer.
+% \item Resolved a critical customer issue shortly after inheriting ownership of the relevant IP which I was previously unfamiliar with.
+% Communicated progress to my VP and resolved the issue in time to salvage the relationship with the customer.
 \item Recognized the limitations of the PCIe DMA engine used for FPGA register access and exception traffic,
 and proactively created a higher performance, lower resource utilizing replacement. The new design is used in 14 FPGA designs on 8 product lines.
 %\item Independently created and maintained 3 FPGA designs which perform SyncE, and board management functions on Adtran's SDX OLTs and aggregation switches.
